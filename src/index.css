@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", "sans-serif";
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 600px;
+  background-image: linear-gradient(
+    180deg,
+    #ffd47d 0,
+    #ffc682 10%,
+    #ffb785 20%,
+    #ffa687 30%,
+    #ff9587 40%,
+    #f78383 50%,
+    #dc737e 60%,
+    #c36679 70%,
+    #ae5c74 80%,
+    #9c5471 90%,
+    #8d4f6f 100%
+  );
+  background-repeat: no-repeat;
+  margin: 25px;
+  padding: 0;
+}
+
+.game {
+  padding: 2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+  transform: scale(0, 0);
+}
+
+.game.active {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  transform: scale(1, 1);
+  transition: 1.2s;
+}
+.persegi {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: solid #ffcc80 3px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.judul {
+  width: 100%;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+.status {
+  color: white;
+  width: 100%;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.papan {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+}
+.x {
+  color: red;
+}
+.o {
+  color: purple;
+}
+
+.namaPemain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.player {
+  width: 37%;
+  margin: 0 5rem 2rem;
+  font-size: 15px;
+}
+
+.tombolPlay {
+  font-size: 18.5px;
+  font-weight: bold;
+  background-color: #dc737e;
+  color: white;
+  border-radius: 12%;
+  border-color: #9f5572;
+}
+.reset {
+  margin: 1.5rem 0 0;
+  font-size: 18.5px;
+  font-weight: bold;
+  background-color: #dc737e;
+  color: white;
+  border-radius: 12%;
+  border-color: #9f5572;
+}
+
+.skor {
+  padding: 0.75rem 0;
+}
+
+@media (max-width: 768px) {
+  .tombolPlay {
+    font-size: 15.5px;
+  }
+  .reset {
+    font-size: 15.5px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
