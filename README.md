@@ -1,6 +1,6 @@
 # Tic-Tac-Toe (React)
 
-# Project Overview
+## Project Overview
 Tic-Tac-Toe is a simple strategy game where two players take turns placing their symbols (usually X and O) on a 3x3 game board. The first player to successfully placing three of their symbols in a row, either horizontally, vertically, or diagonally, becomes the winner. If there are no remaining blank squares and no winner, then the game is tie. 
 
 ## Goal
