@@ -1,6 +1,5 @@
 # Tic-Tac-Toe (React)
 
-
 # Project Overview
 Tic-Tac-Toe is a simple strategy game where two players take turns placing their symbols (usually X and O) on a 3x3 game board. The first player to successfully placing three of their symbols in a row, either horizontally, vertically, or diagonally, becomes the winner. If there are no remaining blank squares and no winner, then the game is tie. 
 
@@ -38,3 +37,15 @@ This project aims to create an interactive Tic-Tac-Toe game using React that can
 - Reset Board
 - Customize Name
 - Scoring System
+
+### Properties
+Component | Function 
+--- | ---
+**Kotak** | represents each square on the game board. Each square can contain "X," "O," or empty depending on the game state.
+**Papan** | responsible for handling the Tic-Tac-Toe game logic, storing and updating the game state, and rendering the user interface (UI) that includes the game board, scores, status, and the "Restart Game" button.
+**Game** | responsible for managing the initial game setup, collecting player names, and initiating the game when the "Start" button is clicked.
+
+### Other Enhancements
+* A bug occurs when the names of both players are the same, causing the scores not to update.
+* The "Reset Game" button appears, replacing the "Start" button.
+* Restart the player score.
