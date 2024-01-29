@@ -47,5 +47,5 @@ Component | Function
 
 ### Other Enhancements
 * A bug occurs when the names of both players are the same, causing the scores not to update.
-* The "Reset Game" button appears, replacing the "Start" button.
 * Restart the player score.
+* Improving UI/UX
